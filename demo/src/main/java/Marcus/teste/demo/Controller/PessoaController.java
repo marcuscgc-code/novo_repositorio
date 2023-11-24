@@ -15,6 +15,7 @@ public class PessoaController {
     @GetMapping(name = "/pessoa")
     public InnerPessoaController PessoaCushi(){
         InnerPessoaController pessoa = new InnerPessoaController(8989, "cucuz");
+        int x;
         return pessoa;
     }
 
